@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>agps_driver</name>
+  <version>1.0.0</version>
+  <description>VN-100 IMU and BU-353S4 GPS driver for A-GPS cold fix project</description>
+  <maintainer email="student@school.edu">student</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>nmea_navsat_driver</depend>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
